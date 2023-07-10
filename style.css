@@ -156,7 +156,7 @@ main{
     width: 99%;
     padding-top: 5%;
     color: white;
-    background-image: url(https://media.discordapp.net/attachments/1125853415273140346/1127831737171460186/ahusauhsuahs.png?width=354&height=452);
+    background-image: url(https://i.pinimg.com/564x/d5/f6/da/d5f6da343f8d17e91db89dc4462ae08c.jpg);
     background-size: cover;
   }
   .title-page-tree{
@@ -169,6 +169,54 @@ main{
   .page-tree img{
     padding-top: 2%;
     width: 60%;
+  }
+  .carousel-inner{
+    width: 40em;
+    height: 50em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 76px -3px rgba(255,255,255,0.64);
+-webkit-box-shadow: 0px 0px 76px -3px rgba(255,255,255,0.64);
+-moz-box-shadow: 0px 0px 76px -3px rgba(255,255,255,0.64);
+  }
+  .meu-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 90%;
+  }
+  .cardpale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: 0px 0px 76px -3px rgba(255,255,255,0.64);
+-webkit-box-shadow: 0px 0px 76px -3px rgba(255,255,255,0.64);
+-moz-box-shadow: 0px 0px 76px -3px rgba(255,255,255,0.64);
+  }
+  .cardpale img{
+    border-radius: 100%;
+  }
+  .card-body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .palestrantes-card{
+    margin-bottom: 70px;
+  }
+  .card{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  .card-text{
+    text-align: center;
   }
   .names {
     width: 70%;
@@ -199,7 +247,7 @@ main{
     text-shadow: -2px 1px 13px rgba(255,255,255,0.72);
     padding-bottom: 5%;
   }
-  .card{
+  .cardp{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -272,8 +320,9 @@ main{
         font-size: 200%;
         font-weight: 800;
       }
-      .card{
+      .cardp{
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         background-color: white;
@@ -284,6 +333,7 @@ main{
         border-radius: 10px;
       }
       .hour{
+        margin-top: 10px;
         font-size: 160%;
         font-weight: 800;
       }
@@ -304,9 +354,10 @@ main{
         padding-bottom: 10%;
       }
       .description-crono{
-        margin-left: 5px;
+        margin-left: 10px;
+        margin-top: 15px;
         width: 60%;
-        font-size: 40%;
+        font-size: 55%;
       }
       .description-page-two{
         padding-top: 10%;
@@ -316,5 +367,19 @@ main{
         text-align: center;
         text-align: justify;
       }
+      .carousel-inner{
+        width: 25em;
+        height: 35em;
+      }
+      .meu-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        width: 90%;
+      }
+    
+    
       
 }
