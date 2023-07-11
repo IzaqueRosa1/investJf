@@ -10,10 +10,19 @@
   background-image: url("https://media.discordapp.net/attachments/1086132796323541006/1128045452286234704/fundo.jpg?width=236&height=419");
   background-size: cover;
 }
+.bg-end {
+    width: 100vw;
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url("https://media.discordapp.net/attachments/1125853415273140346/1128101415680741476/1.jpeg?width=232&height=412");
+    background-size: cover;
+  }
 
 .menu-web { 
   display: none;
 }
+
 
 @media (min-width: 768px) {
   .navbar-toggler, .menu-mobile { 
